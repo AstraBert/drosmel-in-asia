@@ -35,613 +35,1661 @@
 
       <table border="1" class="dataframe">
         <caption>Geolocation Data</caption>
-        <thead>
-            <tr>
+          <table border="1" class="dataframe">
+            <thead>
+              <tr style="text-align: left;">
                 <th></th>
+                <th>SAMPLES</th>
                 <th>LATITUDE</th>
                 <th>LONGITUDE</th>
-                <th>LOCATION</th>
-                <th>STATE</th>
-                <th>SAMPLES</th>
-                <th>SRA_ACCESSIONS</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+                <th>CONTINENT</th>
+                <th>COUNTRY</th>
+                <th>NUMBER OF FLIES</th>
+                <th>SRA ACCESSION</th>
+                <th>SOURCE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
                 <th>0</th>
-                <td>35.070000</td>
-                <td>33.32</td>
-                <td>Tseri</td>
-                <td>Cyprus</td>
+                <td>BY_Bre_Bre_1_2015-09-11</td>
+                <td>52.142193</td>
+                <td>23.662434</td>
+                <td>Europe</td>
+                <td>Belarus</td>
+                <td>40</td>
+                <td>SRR8439157</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>1</th>
+                <td>CH_Fri_Ors_1_2020-08-23</td>
+                <td>46.710610</td>
+                <td>6.987130</td>
+                <td>Europe</td>
+                <td>Switzerland</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>DE_Bra_Ber_1_2021-07-24</td>
+                <td>52.699070</td>
+                <td>13.075960</td>
+                <td>Europe</td>
+                <td>Germany</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td>DE_Bra_Ber_2_2021-07-24</td>
+                <td>52.380120</td>
+                <td>12.867910</td>
+                <td>Europe</td>
+                <td>Germany</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>4</th>
+                <td>ES_Bal_Tom_1_2021-10-07</td>
+                <td>39.168900</td>
+                <td>2.984900</td>
+                <td>Europe</td>
+                <td>Spain</td>
+                <td>32</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>5</th>
+                <td>ES_Ciu_Man_1_2020-08-10</td>
+                <td>38.970721</td>
+                <td>-3.407212</td>
+                <td>Europe</td>
+                <td>Spain</td>
+                <td>30</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>6</th>
+                <td>ES_Ler_Pin_1_2018-10-10</td>
+                <td>41.485000</td>
+                <td>0.522000</td>
+                <td>Europe</td>
+                <td>Spain</td>
+                <td>18</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>7</th>
+                <td>ES_Mad_Yep_1_2018-11-06</td>
+                <td>40.060000</td>
+                <td>-3.530000</td>
+                <td>Europe</td>
+                <td>Spain</td>
+                <td>32</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>8</th>
+                <td>ES_Tol_Vil_1_2018-10-07</td>
+                <td>39.870000</td>
+                <td>-3.320000</td>
+                <td>Europe</td>
+                <td>Spain</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>9</th>
+                <td>ES_Zam_Ose_1_2018-09-20</td>
+                <td>41.530000</td>
+                <td>-5.680000</td>
+                <td>Europe</td>
+                <td>Spain</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>10</th>
+                <td>FI_Cen_Jyv_1_2019-09-19</td>
+                <td>62.000000</td>
+                <td>25.000000</td>
+                <td>Europe</td>
+                <td>Finland</td>
+                <td>20</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>11</th>
+                <td>FR_Cot_Mar_1_2020-08-02</td>
+                <td>47.428840</td>
+                <td>5.077600</td>
+                <td>Europe</td>
+                <td>France</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>12</th>
+                <td>FR_Eur_Sai_1_2018-09-15</td>
+                <td>48.130000</td>
+                <td>1.340000</td>
+                <td>Europe</td>
+                <td>France</td>
+                <td>30</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>13</th>
+                <td>FR_Rho_Lyo_1_2010-07-16</td>
+                <td>45.770000</td>
+                <td>4.860000</td>
+                <td>Europe</td>
+                <td>France</td>
+                <td>87</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>14</th>
+                <td>GB_Edi_Sou_1_2014-07-14</td>
+                <td>55.972871</td>
+                <td>-3.351475</td>
+                <td>Europe</td>
+                <td>United Kingdom</td>
+                <td>40</td>
+                <td>SRR5647757</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>15</th>
+                <td>GB_Ken_Ken_1_2019-09-16</td>
+                <td>51.351161</td>
+                <td>0.184561</td>
+                <td>Europe</td>
+                <td>UK</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>16</th>
+                <td>GB_Lei_Lut_1_2014-10-20</td>
+                <td>52.433592</td>
+                <td>-1.102667</td>
+                <td>Europe</td>
+                <td>United Kingdom</td>
+                <td>40</td>
+                <td>SRR5647759</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>17</th>
+                <td>HU_Sze_Sze_1_2016-08-28</td>
+                <td>46.250000</td>
+                <td>20.130000</td>
+                <td>Europe</td>
+                <td>Hungary</td>
+                <td>40</td>
+                <td>SRR8494453</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>18</th>
+                <td>IT_Sas_Rec_1_2018-10-18</td>
+                <td>41.150000</td>
+                <td>8.410000</td>
+                <td>Europe</td>
+                <td>Portugal</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>19</th>
+                <td>NL_Utr_Hou_1_1998-07-01</td>
+                <td>52.020000</td>
+                <td>5.100000</td>
+                <td>Europe</td>
+                <td>Netherlands</td>
+                <td>19</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>20</th>
+                <td>PL_Lub_Lub_1_2019-09-10</td>
+                <td>51.231500</td>
+                <td>22.524833</td>
+                <td>Europe</td>
+                <td>Poland</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>21</th>
+                <td>PL_Pom_Gda_1_2016-08-01</td>
+                <td>54.350000</td>
+                <td>18.640000</td>
+                <td>Europe</td>
+                <td>Poland</td>
+                <td>40</td>
+                <td>SRR8494455</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>22</th>
+                <td>RS_Kol_Sla_1_2021-09-14</td>
+                <td>44.150000</td>
+                <td>20.180000</td>
+                <td>Europe</td>
+                <td>Serbia</td>
+                <td>38</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>23</th>
+                <td>RS_Kol_Sla_1_2021-MM-DD</td>
+                <td>44.104161</td>
+                <td>19.981698</td>
+                <td>Europe</td>
+                <td>Serbia</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>24</th>
+                <td>RS_Mac_Zaj_1_2020-09-13</td>
+                <td>44.445500</td>
+                <td>19.251200</td>
+                <td>Europe</td>
+                <td>Serbia</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>25</th>
+                <td>RS_Pod_Sta_1_2019-09-19</td>
+                <td>44.590000</td>
+                <td>20.900000</td>
+                <td>Europe</td>
+                <td>Serbia</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>26</th>
+                <td>RU_Tul_Tul_1_2015-09-20</td>
+                <td>53.997780</td>
+                <td>38.131670</td>
+                <td>Europe</td>
+                <td>Russia</td>
+                <td>40</td>
+                <td>SRR8439159</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>27</th>
+                <td>UA_Che_Kan_1_2016-07-08</td>
+                <td>49.720000</td>
+                <td>31.530000</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>40</td>
+                <td>SRR8494448</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>28</th>
+                <td>UA_Che_Pyr_1_2016-08-23</td>
+                <td>50.537520</td>
+                <td>32.518806</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>40</td>
+                <td>SRR8494424</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>29</th>
+                <td>UA_Don_Roz_1_2021-08-12</td>
+                <td>48.690794</td>
+                <td>37.005189</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>30</th>
+                <td>UA_Kie_Kho_1_2021-08-09</td>
+                <td>50.588860</td>
+                <td>30.571380</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>31</th>
+                <td>UA_Myk_Ryb_1_2021-07-22</td>
+                <td>46.616779</td>
+                <td>31.355456</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>32</th>
+                <td>UA_Vol_Lut_1_2019-08-28</td>
+                <td>50.747778</td>
+                <td>25.324444</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>40</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>33</th>
+                <td>UA_Zap_Zap_1_2019-06-17</td>
+                <td>47.803529</td>
+                <td>35.202091</td>
+                <td>Europe</td>
+                <td>Ukraine</td>
+                <td>36</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>34</th>
                 <td>CY_Nic_Nic_1_2014-08-10</td>
+                <td>35.066461</td>
+                <td>33.322646</td>
+                <td>Asia</td>
+                <td>Cyprus</td>
+                <td>40</td>
                 <td>SRR5647756</td>
-            </tr>
-          <tr>
-            <th>1</th>
-            <td>39.910000</td>
-            <td>116.41</td>
-            <td>Beijing</td>
-            <td>China</td>
-            <td>CN_Bei_Bei_1_1992-09-16</td>
-            <td></td>
-          </tr>
-          <tr>
-            <th>2</th>
-            <td>40.230000</td>
-            <td>32.26</td>
-            <td>Gudul</td>
-            <td>Turkey</td>
-            <td>TR_Ank_Yes_1_2014-08-31,TR_Ank_Yes_1_2014-10-23,TR_Ank_Yes_1_2015-05-01,TR_Ank_Yes_1_2015-06-01,TR_Ank_Yes_1_2015-07-28,TR_Ank_Yes_1_2015-08-27,TR_Ank_Yes_1_2015-09-17,TR_Ank_Yes_1_2015-10-15,TR_Ank_Yes_1_2016-05-26,TR_Ank_Yes_1_2016-06-25,TR_Ank_Yes_1_2016-07-27,TR_Ank_Yes_1_2016-08-24,TR_Ank_Yes_1_2016-09-27,TR_Ank_Yes_1_2016-10-13,TR_Ank_Yes_1_2017-06-07,TR_Ank_Yes_1_2017-06-30,TR_Ank_Yes_1_2017-07-29,TR_Ank_Yes_1_2017-08-30,TR_Ank_Yes_1_2017-09-26,TR_Ank_Yes_1_2017-10-13,TR_Ank_Yes_1_2018-05-19,TR_Ank_Yes_1_2018-06-25,TR_Ank_Yes_1_2018-07-28,TR_Ank_Yes_1_2018-08-27,TR_Ank_Yes_1_2018-09-27,TR_Ank_Yes_1_2018-10-12,TR_Ank_Yes_1_2019-06-26,TR_Ank_Yes_1_2019-08-14,TR_Ank_Yes_1_2019-09-17,TR_Ank_Yes_1_2019-10-10,TR_Ank_Yes_1_2020-05-21,TR_Ank_Yes_1_2020-06-26,TR_Ank_Yes_1_2020-07-13,TR_Ank_Yes_1_2020-08-18,TR_Ank_Yes_1_2020-09-16,TR_Ank_Yes_1_2020-10-14,TR_Ank_Yes_1_2021-05-19,TR_Ank_Yes_1_2021-06-25,TR_Ank_Yes_1_2021-07-27,TR_Ank_Yes_1_2021-08-19,TR_Ank_Yes_1_2021-09-20,TR_Ank_Yes_1_2021-10-16</td>
-            <td>SRR5647749,SRR5647748,SRR8439113,SRR8439111,SRR8439110,SRR8439109,SRR8439108,SRR8439107,SRR8494467,SRR8494465,SRR8494464,SRR8494463,SRR8494468,SRR8494423</td>
-          </tr>
-          <tr>
-            <th>3</th>
-            <td>23.300000</td>
-            <td>80.01</td>
-            <td>Deori</td>
-            <td>India</td>
-            <td>IND_Del_Jab_1_2009-NA-NA,IND_Del_Jab_2_2009-NA-NA,IND_Del_Jab_3_2009-NA-NA,IND_Del_Jab_4_2009-NA-NA,IND_Del_Jab_5_2009-NA-NA,IND_Del_Jab_6_2009-NA-NA</td>
-            <td>SRS1185756,SRS1185838,SRS1185836,SRS1185833,SRS1185834,SRS1185756</td>
-          </tr>
-          <tr>
-            <th>4</th>
-            <td>22.800000</td>
-            <td>108.37</td>
-            <td>Guangxi</td>
-            <td>China</td>
-            <td>mel289</td>
-            <td>SRR23103991</td>
-          </tr>
-          <tr>
-            <th>5</th>
-            <td>22.810000</td>
-            <td>108.38</td>
-            <td>Guangxi</td>
-            <td>China</td>
-            <td>mel290,mel291</td>
-            <td>SRR23103989,SRR23103987</td>
-          </tr>
-          <tr>
-            <th>6</th>
-            <td>23.020000</td>
-            <td>72.57</td>
-            <td>Gujarat</td>
-            <td>India</td>
-            <td>Indian2</td>
-            <td>SRR3990712</td>
-          </tr>
-          <tr>
-            <th>7</th>
-            <td>24.330000</td>
-            <td>103.38</td>
-            <td>Yunnan</td>
-            <td>China</td>
-            <td>mel271,mel272</td>
-            <td>SRR23104009,SRR23104008</td>
-          </tr>
-          <tr>
-            <th>8</th>
-            <td>25.280000</td>
-            <td>110.29</td>
-            <td>Guangxi</td>
-            <td>China</td>
-            <td>mel279,mel292</td>
-            <td>SRR23104002,SRR23103986</td>
-          </tr>
-          <tr>
-            <th>9</th>
-            <td>27.010000</td>
-            <td>106.02</td>
-            <td>Guizhou</td>
-            <td>China</td>
-            <td>mel281,mel282,mel283</td>
-            <td>SRR23103998,SRR23103997,SRR23103996</td>
-          </tr>
-          <tr>
-            <th>10</th>
-            <td>27.260000</td>
-            <td>112.68</td>
-            <td>Hunan</td>
-            <td>China</td>
-            <td>mel68</td>
-            <td>SRR23103903</td>
-          </tr>
-          <tr>
-            <th>11</th>
-            <td>28.210000</td>
-            <td>113.02</td>
-            <td>Hunan</td>
-            <td>China</td>
-            <td>mel269,mel270,mel286,mel287,mel288</td>
-            <td>SRR23103849,SRR23104010,SRR23103994,SRR23103993,SRR23103992</td>
-          </tr>
-          <tr>
-            <th>12</th>
-            <td>28.210000</td>
-            <td>113.02</td>
-            <td>Hunan</td>
-            <td>China</td>
-            <td>mel64,mel65,mel66,mel67</td>
-            <td>SRR23103907,SRR23103906,SRR23103905,SRR23103904</td>
-          </tr>
-          <tr>
-            <th>13</th>
-            <td>28.220000</td>
-            <td>113.00</td>
-            <td>Hunan</td>
-            <td>China</td>
-            <td>mel285</td>
-            <td>SRR23103995</td>
-          </tr>
-          <tr>
-            <th>14</th>
-            <td>29.430000</td>
-            <td>106.36</td>
-            <td>Chongqing</td>
-            <td>China</td>
-            <td>mel264,mel265,mel266,mel267,mel268</td>
-            <td>SRR23103854,SRR23103853,SRR23103852,SRR23103851,SRR23103850</td>
-          </tr>
-          <tr>
-            <th>15</th>
-            <td>29.580000</td>
-            <td>103.74</td>
-            <td>Sichuan</td>
-            <td>China</td>
-            <td>mel273</td>
-            <td>SRR23104007</td>
-          </tr>
-          <tr>
-            <th>16</th>
-            <td>29.650000</td>
-            <td>91.18</td>
-            <td>Tibet</td>
-            <td>Chine</td>
-            <td>mel202,mel203,mel204,mel205,mel206,mel207,mel208,mel209,mel210,mel211,mel212,mel213,mel214,mel215,mel216,mel217,mel218,mel219,mel220,mel221,mel222,mel223,mel224,mel225,mel226,mel227,mel228,mel229,mel230,mel231,mel232,mel233,mel234,mel235,mel236,mel237,mel238,mel239,mel240,mel241,mel242,mel243,mel244,mel245,mel246,mel247,mel248,mel249,mel250,mel251,mel252,mel253,mel254,mel255,mel256,mel257,mel258</td>
-            <td>SRR23103929,SRR23103928,SRR23103927,SRR23103926,SRR23103925,SRR23103923,SRR23103922,SRR23103921,SRR23103919,SRR23103918,SRR23103917,SRR23103916,SRR23103915,SRR23103914,SRR23104044,SRR23104043,SRR23104042,SRR23104041,SRR23104039,SRR23104038,SRR23104037,SRR23104036,SRR23104035,SRR23104033,SRR23104032,SRR23104031,SRR23104030,SRR23104029,SRR23104027,SRR23104026,SRR23104025,SRR23104024,SRR23104022,SRR23104021,SRR23104020,SRR23104019,SRR23104018,SRR23104017,SRR23104015,SRR23104014,SRR23104013,SRR23103879,SRR23103878,SRR23103877,SRR23103876,SRR23103875,SRR23103874,SRR23103873,SRR23103871,SRR23103870,SRR23103868,SRR23103867,SRR23103866,SRR23103865,SRR23103864,SRR23103863,SRR23103862</td>
-          </tr>
-          <tr>
-            <th>17</th>
-            <td>3.150000</td>
-            <td>101.70</td>
-            <td>Kuala_Lumpur</td>
-            <td>Malaysia</td>
-            <td>t4</td>
-            <td>SRR457668</td>
-          </tr>
-          <tr>
-            <th>18</th>
-            <td>30.096574</td>
-            <td>31.32</td>
-            <td>Cairo</td>
-            <td>Egypt</td>
-            <td>EG12N,EG14N,EG15N,EG16N,EG25N,EG26N,EG28N,EG29N,EG31N,EG33N,EG34N,EG35N,EG36N,EG38N,EG40N,EG43N,EG44N,EG46N,EG48N,EG49N,EG50N,EG53N,EG54N,EG55N,EG57N,EG58N,EG59N,EG65N,EG69N,EG70N,EG71N,EG73N,EG74N,EG75N,EG76N</td>
-            <td>SRR3734361,SRR3734362,SRR3734363,SRR3734364,SRR3734365,SRR3734366,SRR3734368,SRR3734369,SRR3734370,SRR3734371,SRR3734372,SRR3734373,SRR3734374,SRR3734375,SRR1687832,SRR3734376,SRR3734377,SRR3734065,SRR3734066,SRR3734067,SRR3734068,SRR3734069,SRR3734070,SRR3734071,SRR3734072,SRR3734073,SRR3734074,SRR3734076,SRR1688188,SRR3734077,SRR3734078,SRR1688222,SRR3734079,SRR3734080,SRR3734081</td>
-          </tr>
-          <tr>
-            <th>19</th>
-            <td>30.300000</td>
-            <td>105.33</td>
-            <td>Anyue_County</td>
-            <td>China</td>
-            <td>mel259,mel260,mel261,mel262,mel263,mel278</td>
-            <td>SRR23103861,SRR23103859,SRR23103857,SRR23103856,SRR23103855,SRR23104003</td>
-          </tr>
-          <tr>
-            <th>20</th>
-            <td>30.380000</td>
-            <td>104.16</td>
-            <td>Sichuan</td>
-            <td>China</td>
-            <td>mel275</td>
-            <td>SRR23104006</td>
-          </tr>
-          <tr>
-            <th>21</th>
-            <td>30.400000</td>
-            <td>104.14</td>
-            <td>Sichuan</td>
-            <td>China</td>
-            <td>mel276,mel277</td>
-            <td>SRR23104005,SRR23104004</td>
-          </tr>
-          <tr>
-            <th>22</th>
-            <td>31.270000</td>
-            <td>120.73</td>
-            <td>Jiangsu</td>
-            <td>China</td>
-            <td>mel26,mel27,mel28,mel29,mel30,SZ1,SZ5</td>
-            <td>SRR23103860,SRR23104012,SRR23104001,SRR23103990,SRR23103984,SRR23103769,SRR23103767</td>
-          </tr>
-          <tr>
-            <th>23</th>
-            <td>31.300000</td>
-            <td>121.50</td>
-            <td>Shanghai</td>
-            <td>China</td>
-            <td>mel36,mel37,mel38</td>
-            <td>SRR23103846,SRR23103844,SRR23103843</td>
-          </tr>
-          <tr>
-            <th>24</th>
-            <td>34.270000</td>
-            <td>105.47</td>
-            <td>Gansu</td>
-            <td>China</td>
-            <td>mel99</td>
-            <td>SRR23103770</td>
-          </tr>
-          <tr>
-            <th>25</th>
-            <td>34.600000</td>
-            <td>109.72</td>
-            <td>Weinan_City</td>
-            <td>China</td>
-            <td>mel100,mel101,mel102,mel103</td>
-            <td>SRR23103967,SRR23103956,SRR23103945,SRR23103806</td>
-          </tr>
-          <tr>
-            <th>26</th>
-            <td>34.850000</td>
-            <td>105.67</td>
-            <td>Gansu</td>
-            <td>China</td>
-            <td>mel95,mel96,mel97,mel98</td>
-            <td>SRR23103774,SRR23103773,SRR23103772,SRR23103771</td>
-          </tr>
-          <tr>
-            <th>27</th>
-            <td>35.870000</td>
-            <td>118.88</td>
-            <td>Shandong</td>
-            <td>China</td>
-            <td>mel192,mel193,mel194,mel195,mel196</td>
-            <td>SRR23103942,SRR23103941,SRR23103940,SRR23103939,SRR23103938</td>
-          </tr>
-          <tr>
-            <th>28</th>
-            <td>36.020000</td>
-            <td>101.47</td>
-            <td>Qinghai</td>
-            <td>China</td>
-            <td>mel134,mel135,mel136,mel137,mel138</td>
-            <td>SRR23103976,SRR23103975,SRR23103974,SRR23103973,SRR23103972</td>
-          </tr>
-          <tr>
-            <th>29</th>
-            <td>36.130000</td>
-            <td>103.67</td>
-            <td>Gansu</td>
-            <td>China</td>
-            <td>mel6,mel7,mel8,mel9,mel10,LZ9</td>
-            <td>SRR23103817,SRR23103901,SRR23103889,SRR23103781,SRR23103754,SRR23104000</td>
-          </tr>
-          <tr>
-            <th>30</th>
-            <td>36.180000</td>
-            <td>116.76</td>
-            <td>Shandong</td>
-            <td>China</td>
-            <td>mel129,mel130,mel131,mel132,mel133</td>
-            <td>SRR23103759,SRR23103757,SRR23103756,SRR23103755,SRR23103753</td>
-          </tr>
-          <tr>
-            <th>31</th>
-            <td>36.280000</td>
-            <td>103.00</td>
-            <td>Gansu</td>
-            <td>China</td>
-            <td>mel188,mel189,mel190,mel191</td>
-            <td>SRR23103786,SRR23103785,SRR23103944,SRR23103943</td>
-          </tr>
-          <tr>
-            <th>32</th>
-            <td>36.560000</td>
-            <td>101.74</td>
-            <td>Qinghai</td>
-            <td>China</td>
-            <td>mel94</td>
-            <td>SRR23103775</td>
-          </tr>
-          <tr>
-            <th>33</th>
-            <td>36.750000</td>
-            <td>117.18</td>
-            <td>Shandong</td>
-            <td>China</td>
-            <td>mel109,mel110,mel112,mel113,mel121,mel122</td>
-            <td>SRR23104034,SRR23103880,SRR23103869,SRR23103858,SRR23103886,SRR23103779</td>
-          </tr>
-          <tr>
-            <th>34</th>
-            <td>37.710000</td>
-            <td>120.64</td>
-            <td>Shandong</td>
-            <td>China</td>
-            <td>mel119,mel120,mel123,mel173,mel174,mel175,mel176,mel177</td>
-            <td>SRR23103823,SRR23103897,SRR23103768,SRR23103803,SRR23103802,SRR23103801,SRR23103800,SRR23103799</td>
-          </tr>
-          <tr>
-            <th>35</th>
-            <td>38.480000</td>
-            <td>106.20</td>
-            <td>Ningxia</td>
-            <td>China</td>
-            <td>mel154,mel155,mel156,mel157,mel158</td>
-            <td>SRR23103954,SRR23103953,SRR23103952,SRR23103951,SRR23103950</td>
-          </tr>
-          <tr>
-            <th>36</th>
-            <td>38.830000</td>
-            <td>100.39</td>
-            <td>Gansu</td>
-            <td>China</td>
-            <td>mel178,mel179,mel180,mel181,mel182</td>
-            <td>SRR23103798,SRR23103797,SRR23103794,SRR23103793,SRR23103792</td>
-          </tr>
-          <tr>
-            <th>37</th>
-            <td>38.980000</td>
-            <td>121.59</td>
-            <td>Liaoning</td>
-            <td>China</td>
-            <td>mel197,mel198,mel199,mel200,mel201</td>
-            <td>SRR23103937,SRR23103936,SRR23103934,SRR23103931,SRR23103930</td>
-          </tr>
-          <tr>
-            <th>38</th>
-            <td>39.650000</td>
-            <td>66.97</td>
-            <td>Samarkand</td>
-            <td>Uzbekistan</td>
-            <td>SAM</td>
-            <td>SRR457695</td>
-          </tr>
-          <tr>
-            <th>39</th>
-            <td>39.670000</td>
-            <td>106.80</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel31,mel32,mel33,mel34,mel35</td>
-            <td>SRR23103983,SRR23103982,SRR23103981,SRR23103848,SRR23103847</td>
-          </tr>
-          <tr>
-            <th>40</th>
-            <td>39.770000</td>
-            <td>98.36</td>
-            <td>Gansu</td>
-            <td>China</td>
-            <td>mel114,mel115,mel116,mel117,mel118</td>
-            <td>SRR23104011,SRR23103999,SRR23103988,SRR23103845,SRR23103834</td>
-          </tr>
-          <tr>
-            <th>41</th>
-            <td>39.910000</td>
-            <td>116.41</td>
-            <td>Beijing</td>
-            <td>China</td>
-            <td>B04,B05,B10,B11,B12,B14,B23,B28,B38,B42,B43,B51,B52,B54,B59</td>
-            <td>SRR1662283,SRR1663528,SRR1663529,SRR1663530,SRR1663531,SRR1663532,SRR1663533,SRR1663534,SRR1663535,SRR1663536,SRR1663537,SRR1663538,SRR1663539,SRR1663540,SRR1663541</td>
-          </tr>
-          <tr>
-            <th>42</th>
-            <td>39.910000</td>
-            <td>116.39</td>
-            <td>Beijing</td>
-            <td>China</td>
-            <td>mel164,mel165,mel166,mel167,mel168</td>
-            <td>SRR23103814,SRR23103813,SRR23103812,SRR23103811,SRR23103810</td>
-          </tr>
-          <tr>
-            <th>43</th>
-            <td>40.000000</td>
-            <td>116.31</td>
-            <td>Beijing</td>
-            <td>China</td>
-            <td>mel140,mel142,mel143</td>
-            <td>SRR23103970,SRR23103969,SRR23103968</td>
-          </tr>
-          <tr>
-            <th>44</th>
-            <td>40.000000</td>
-            <td>124.35</td>
-            <td>Liaoning</td>
-            <td>China</td>
-            <td>mel16,mel17,mel18,mel19,mel20</td>
-            <td>SRR23103948,SRR23103808,SRR23103796,SRR23103977,SRR23103932</td>
-          </tr>
-          <tr>
-            <th>45</th>
-            <td>40.570000</td>
-            <td>110.51</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel104,mel105,mel106,mel107,mel108</td>
-            <td>SRR23103795,SRR23103978,SRR23103935,SRR23103924,SRR23103913</td>
-          </tr>
-          <tr>
-            <th>46</th>
-            <td>40.670000</td>
-            <td>107.35</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel21,mel22,mel23,mel24,mel25</td>
-            <td>SRR23103920,SRR23104040,SRR23104028,SRR23104016,SRR23103872</td>
-          </tr>
-          <tr>
-            <th>47</th>
-            <td>40.810000</td>
-            <td>111.66</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel1,mel2,mel3,mel4,mel5</td>
-            <td>SRR23103765,SRR23103933,SRR23103985,SRR23103841,SRR23103829</td>
-          </tr>
-          <tr>
-            <th>48</th>
-            <td>41.750000</td>
-            <td>123.37</td>
-            <td>Liaoning</td>
-            <td>China</td>
-            <td>mel39,mel40,mel41,mel42,mel43</td>
-            <td>SRR23103842,SRR23103840,SRR23103839,SRR23103838,SRR23103837</td>
-          </tr>
-          <tr>
-            <th>49</th>
-            <td>42.200000</td>
-            <td>116.46</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel11,mel12,mel13,mel14,mel15</td>
-            <td>SRR23104023,SRR23103908,SRR23103758,SRR23103971,SRR23103960</td>
-          </tr>
-          <tr>
-            <th>50</th>
-            <td>42.250000</td>
-            <td>118.97</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel89,mel90,mel91,mel92,mel93</td>
-            <td>SRR23103782,SRR23103780,SRR23103778,SRR23103777,SRR23103776</td>
-          </tr>
-          <tr>
-            <th>51</th>
-            <td>42.580000</td>
-            <td>128.32</td>
-            <td>Jilin</td>
-            <td>China</td>
-            <td>mel59,mel60,mel61,mel62,mel63</td>
-            <td>SRR23103818,SRR23103912,SRR23103911,SRR23103910,SRR23103909</td>
-          </tr>
-          <tr>
-            <th>52</th>
-            <td>42.850000</td>
-            <td>93.56</td>
-            <td>Xinjiang</td>
-            <td>China</td>
-            <td>mel144,mel145,mel146,mel147,mel148</td>
-            <td>SRR23103966,SRR23103965,SRR23103964,SRR23103963,SRR23103962</td>
-          </tr>
-          <tr>
-            <th>53</th>
-            <td>42.980000</td>
-            <td>129.49</td>
-            <td>Jilin</td>
-            <td>China</td>
-            <td>mel124,mel125,mel126,mel127,mel128</td>
-            <td>SRR23103764,SRR23103763,SRR23103762,SRR23103761,SRR23103760</td>
-          </tr>
-          <tr>
-            <th>54</th>
-            <td>43.010000</td>
-            <td>89.16</td>
-            <td>Xinjiang</td>
-            <td>China</td>
-            <td>mel169,mel170,mel171,mel172</td>
-            <td>SRR23103809,SRR23103807,SRR23103805,SRR23103804</td>
-          </tr>
-          <tr>
-            <th>55</th>
-            <td>43.860000</td>
-            <td>125.32</td>
-            <td>Jilin</td>
-            <td>China</td>
-            <td>mel49,mel50,mel51,mel52,mel53</td>
-            <td>SRR23103830,SRR23103828,SRR23103827,SRR23103826,SRR23103825</td>
-          </tr>
-          <tr>
-            <th>56</th>
-            <td>43.890000</td>
-            <td>87.55</td>
-            <td>Xinjiang</td>
-            <td>China</td>
-            <td>mel74,mel75,mel76,mel77,mel78,WLMQ2</td>
-            <td>SRR23103895,SRR23103894,SRR23103893,SRR23103892,SRR23103891,SRR23103766</td>
-          </tr>
-          <tr>
-            <th>57</th>
-            <td>44.300000</td>
-            <td>86.05</td>
-            <td>Xinjiang</td>
-            <td>China</td>
-            <td>mel149,mel150,mel151,mel152,mel153,mel159,mel160,mel161,mel162,mel163</td>
-            <td>SRR23103961,SRR23103959,SRR23103958,SRR23103957,SRR23103955,SRR23103949,SRR23103947,SRR23103946,SRR23103816,SRR23103815</td>
-          </tr>
-          <tr>
-            <th>58</th>
-            <td>45.750000</td>
-            <td>126.63</td>
-            <td>Heilongjiang</td>
-            <td>China</td>
-            <td>mel79,mel80,mel81,mel82,mel83</td>
-            <td>SRR23103890,SRR23103888,SRR23103887,SRR23103885,SRR23103884</td>
-          </tr>
-          <tr>
-            <th>59</th>
-            <td>46.810000</td>
-            <td>130.32</td>
-            <td>Heilongjiang</td>
-            <td>China</td>
-            <td>mel84,mel85,mel86,mel87,mel88</td>
-            <td>SRR23103883,SRR23103882,SRR23103881,SRR23103784,SRR23103783</td>
-          </tr>
-          <tr>
-            <th>60</th>
-            <td>47.330000</td>
-            <td>123.97</td>
-            <td>Heilongjiang</td>
-            <td>China</td>
-            <td>mel183,mel184,mel185,mel186,mel187</td>
-            <td>SRR23103791,SRR23103790,SRR23103789,SRR23103788,SRR23103787</td>
-          </tr>
-          <tr>
-            <th>61</th>
-            <td>48.360000</td>
-            <td>134.30</td>
-            <td>Heilongjiang</td>
-            <td>China</td>
-            <td>mel69,mel70,mel71,mel72,mel73</td>
-            <td>SRR23103902,SRR23103900,SRR23103899,SRR23103898,SRR23103896</td>
-          </tr>
-          <tr>
-            <th>62</th>
-            <td>49.220000</td>
-            <td>119.77</td>
-            <td>Inner_Mongolia</td>
-            <td>China</td>
-            <td>mel44,mel45,mel46,mel47,mel48,HLE8</td>
-            <td>SRR23103836,SRR23103835,SRR23103833,SRR23103832,SRR23103831,SRR23103979</td>
-          </tr>
-          <tr>
-            <th>63</th>
-            <td>53.490000</td>
-            <td>122.34</td>
-            <td>Heilongjiang</td>
-            <td>China</td>
-            <td>mel54,mel55,mel56,mel57,mel58,BJC5</td>
-            <td>SRR23103824,SRR23103822,SRR23103821,SRR23103820,SRR23103819,SRR23103980</td>
-          </tr>
-          <tr>
-            <th>64</th>
-            <td>9.930000</td>
-            <td>76.26</td>
-            <td>Thoppumpady</td>
-            <td>India</td>
-            <td>Indian1</td>
-            <td>SRR3946370</td>
-          </tr>
-          <tr>
-            <th>65</th>
-            <td>39.120000</td>
-            <td>117.19</td>
-            <td>Tianjin</td>
-            <td>China</td>
-            <td>Wmale3,Wmale2,Wmale1,Wfemale3,Wfemale2,Wfemale1,Tmale3,Tmale2,Tmale1,Tfemale3,Tfemale2,Tfemale1,WF_10,WF_9,WF_8,WF_7,WF_6,WF_5,WF_4,WF_3,WF_2,WF_1,WM_10,WM_9,WM_8,WM_7,WM_6,WM_5,WM_4,WM_3,WM_2,WM_1,TF_10,TF_9,TF_8,TF_7,TF_6,TF_5,TF_4,TF_3,TF_2,TF_1,TM_10,TM_9,TM_8,TM_7,TM_6,TM_5,TM_4,TM_3,TM_2,TM_1</td>
-            <td>SRS15683470,SRS15683469,SRS15683467,SRS15683465,SRS15683466,SRS15683464,SRS15683463,SRS15683462,SRS15683461,SRS15683460,SRS15683459,SRS15683458,SRS15683456,SRS15683455,SRS15683454,SRS15683453,SRS15683452,SRS15683451,SRS15683450,SRS15683448,SRS15683449,SRS15683447,SRS15683444,SRS15683445,SRS15683443,SRS15683442,SRS15683441,SRS15683440,SRS15683439,SRS15683438,SRS15683437,SRS15683436,SRS15683434,SRS15683433,SRS15683432,SRS15683431,SRS15683430,SRS15683429,SRS15683428,SRS15683427,SRS15683426,SRS15683425,SRS15683474,SRS15683473,SRS15683472,SRS15683471,SRS15683468,SRS15683457,SRS15683446,SRS15683435,SRS15683423,SRS15683424</td>
-          </tr>
-        </tbody>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>35</th>
+                <td>mel68</td>
+                <td>27.260000</td>
+                <td>112.680000</td>
+                <td>Asia</td>
+                <td>China</td>
+                <td>1</td>
+                <td>SRR23103903</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>36</th>
+                <td>mel94</td>
+                <td>36.560000</td>
+                <td>101.740000</td>
+                <td>Asia</td>
+                <td>China</td>
+                <td>1</td>
+                <td>SRR23103775</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>37</th>
+                <td>mel99</td>
+                <td>34.270000</td>
+                <td>105.470000</td>
+                <td>Asia</td>
+                <td>China</td>
+                <td>1</td>
+                <td>SRR23103770</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>38</th>
+                <td>mel273</td>
+                <td>29.580000</td>
+                <td>103.740000</td>
+                <td>Asia</td>
+                <td>China</td>
+                <td>1</td>
+                <td>SRR23104007</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>39</th>
+                <td>Indian1</td>
+                <td>9.930000</td>
+                <td>76.260000</td>
+                <td>Asia</td>
+                <td>India</td>
+                <td>1</td>
+                <td>SRR3946370</td>
+                <td>Singhal et al. (30)</td>
+              </tr>
+              <tr>
+                <th>40</th>
+                <td>Indian2</td>
+                <td>23.020000</td>
+                <td>72.570000</td>
+                <td>Asia</td>
+                <td>India</td>
+                <td>1</td>
+                <td>SRR3990712</td>
+                <td>Singhal et al. (30)</td>
+              </tr>
+              <tr>
+                <th>41</th>
+                <td>t4</td>
+                <td>3.150000</td>
+                <td>101.700000</td>
+                <td>Asia</td>
+                <td>Malaysia</td>
+                <td>1</td>
+                <td>SRR457668</td>
+                <td>King et al. (28)</td>
+              </tr>
+              <tr>
+                <th>42</th>
+                <td>SAM</td>
+                <td>39.650000</td>
+                <td>66.970000</td>
+                <td>Asia</td>
+                <td>Uzbekistan</td>
+                <td>1</td>
+                <td>SRR457695</td>
+                <td>King et al. (28)</td>
+              </tr>
+              <tr>
+                <th>43</th>
+                <td>EG_Al_Cai_1_2011-01-16</td>
+                <td>30.100000</td>
+                <td>31.320000</td>
+                <td>Africa</td>
+                <td>Egypt</td>
+                <td>29</td>
+                <td></td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>44</th>
+                <td>AT_Kar_See_1_2014-08-17, AT_Kar_See_1_2016-08-01</td>
+                <td>46.813689</td>
+                <td>13.507948</td>
+                <td>Europe, Europe</td>
+                <td>Austria, Austria</td>
+                <td>80</td>
+                <td>SRR5647746, SRR8494439</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>45</th>
+                <td>AT_Nie_Mau_1_2014-07-20, AT_Nie_Mau_1_2014-10-19, AT_Nie_Mau_1_2015-07-20, AT_Nie_Mau_1_2015-10-19</td>
+                <td>48.375000</td>
+                <td>15.560000</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Austria, Austria, Austria, Austria</td>
+                <td>160</td>
+                <td>SRR5647751, SRR5647750, SRR8439127, SRR8439143</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>46</th>
+                <td>AT_Wie_Gro_1_2012-08-03, AT_Wie_Gro_1_2012-10-20</td>
+                <td>48.200000</td>
+                <td>16.370000</td>
+                <td>Europe, Europe</td>
+                <td>Austria, Austria</td>
+                <td>106</td>
+                <td>SRR3590553, SRR3590552</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>47</th>
+                <td>CH_Vau_Cha_1_2014-07-24, CH_Vau_Cha_1_2014-10-05, CH_Vau_Cha_1_2015-08-01, CH_Vau_Cha_1_2016-08-15</td>
+                <td>46.567042</td>
+                <td>6.701867</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Switzerland, Switzerland, Switzerland, Switzerland</td>
+                <td>160</td>
+                <td>SRR5647754, SRR5647758, SRR8439166, SRR8494459</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>48</th>
+                <td>CH_Vau_Vul_1_2019-09-24, CH_Vau_Vul_1_2020-07-29, CH_Vau_Vul_1_2020-09-15, CH_Vau_Vul_1_2018-09-18, CH_Vau_Vul_1_2019-07-17</td>
+                <td>46.939470</td>
+                <td>7.053320</td>
+                <td>Europe, Europe, Europe, Europe, Europe</td>
+                <td>Switzerland, Switzerland, Switzerland, Switzerland, Switzerland</td>
+                <td>200</td>
+                <td>Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>49</th>
+                <td>DE_Bad_Bro_1_2014-06-26, DE_Bad_Bro_1_2014-10-15, DE_Bad_Bro_1_2015-06-30, DE_Bad_Bro_1_2015-10-25, DE_Bad_Bro_1_2016-07-24, DE_Bad_Bro_1_2016-10-23, DE_Bad_Bro_1_2017-06-27, DE_Bad_Bro_1_2018-06-26, DE_Bad_Bro_1_2019-07-03, DE_Bad_Bro_1_2020-07-16, DE_Bad_Bro_1_2020-10-24, DE_Bad_Bro_1_2021-07-21, DE_Bad_Bro_1_2021-10-20</td>
+                <td>48.217952</td>
+                <td>7.819416</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany</td>
+                <td>519</td>
+                <td>SRR5647762, SRR5647761, SRR8439148, SRR8439144, SRR8494434, SRR8494452, Absent, Absent, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>50</th>
+                <td>DE_Bad_Wal_1_2019-10-02, DE_Bad_Wal_1_2020-10-02</td>
+                <td>47.622135</td>
+                <td>8.217058</td>
+                <td>Europe, Europe</td>
+                <td>Germany, Germany</td>
+                <td>60</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>51</th>
+                <td>DE_Bay_Mun_1_2014-06-19, DE_Bay_Mun_1_2014-09-03, DE_Bay_Mun_1_2015-06-01, DE_Bay_Mun_1_2015-09-01, DE_Bay_Mun_1_2016-06-25, DE_Bay_Mun_1_2016-09-01, DE_Bay_Mun_1_2017-06-20, DE_Bay_Mun_1_2017-09-03, DE_Bay_Mun_1_2018-06-25, DE_Bay_Mun_1_2018-09-09, DE_Bay_Mun_1_2019-06-22, DE_Bay_Mun_1_2019-09-02, DE_Bay_Mun_1_2020-06-25, DE_Bay_Mun_1_2020-09-05, DE_Bay_Mun_1_2021-06-25, DE_Bay_Mun_1_2021-09-04</td>
+                <td>48.180000</td>
+                <td>11.610000</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany, Germany</td>
+                <td>640</td>
+                <td>SRR5647744, SRR5647745, SRR8439125, SRR8439124, SRR8494451, SRR8494454, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>52</th>
+                <td>DE_Bay_Wue_1_2020-07-18, DE_Bay_Wue_1_2020-09-23, DE_Bay_Wue_1_2021-07-27, DE_Bay_Wue_1_2021-10-18</td>
+                <td>49.779370</td>
+                <td>9.975111</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Germany, Germany, Germany, Germany</td>
+                <td>160</td>
+                <td>Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>53</th>
+                <td>DK_Mid_Kar_1_2019-07-09, DK_Mid_Kar_1_2019-10-01, DK_Mid_Kar_1_2020-07-31, DK_Mid_Kar_1_2020-10-31, DK_Mid_Kar_1_2014-09-01, DK_Mid_Kar_1_2014-11-25, DK_Mid_Kar_1_2016-06-08, DK_Mid_Kar_1_2016-09-15, DK_Mid_Kar_1_2016-11-22, DK_Mid_Kar_1_2017-08-08, DK_Mid_Kar_1_2018-06-30, DK_Mid_Kar_1_2018-10-05</td>
+                <td>55.945128</td>
+                <td>10.212586</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Denmark, Denmark, Denmark, Denmark, Denmark, Denmark, Denmark, Denmark, Denmark, Denmark, Denmark, Denmark</td>
+                <td>474</td>
+                <td>Absent, Absent, Absent, Absent, SRR5647772, SRR5647771, SRR8494440, SRR8494438, SRR8494437, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>54</th>
+                <td>ES_Bar_Bar_1_2012-07-13, ES_Bar_Bar_1_2012-10-16</td>
+                <td>41.380000</td>
+                <td>2.170000</td>
+                <td>Europe, Europe</td>
+                <td>Spain, Spain</td>
+                <td>84</td>
+                <td>SRR3590549, SRR3590548</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>55</th>
+                <td>ES_Ciu_Tom_1_2015-09-17, ES_Ciu_Tom_1_2015-10-08, ES_Ciu_Tom_1_2016-09-02, ES_Ciu_Tom_1_2016-10-11, ES_Ciu_Tom_1_2017-10-04, ES_Ciu_Tom_1_2018-10-03, ES_Ciu_Tom_1_2020-09-30</td>
+                <td>39.157812</td>
+                <td>-3.033524</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Spain, Spain, Spain, Spain, Spain, Spain, Spain</td>
+                <td>280</td>
+                <td>SRR8439137, SRR8439136, SRR8494461, SRR8494460, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>56</th>
+                <td>ES_Gra_Ben_1_2017-10-05, ES_Gra_Gua_1_2015-09-12, ES_Gra_Pur_1_2016-08-30, ES_Gra_Ben_1_2016-10-08</td>
+                <td>37.346400</td>
+                <td>-3.172002</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Spain, Spain, Spain, Spain</td>
+                <td>160</td>
+                <td>Absent, SRR8439164, SRR8494462, SRR8494475</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>57</th>
+                <td>ES_Gra_Cor_1_2015-08-08, ES_Gra_Cor_1_2017-07-28</td>
+                <td>37.661660</td>
+                <td>-2.796273</td>
+                <td>Europe, Europe</td>
+                <td>Spain, Spain</td>
+                <td>80</td>
+                <td>SRR8439163, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>58</th>
+                <td>ES_Ler_Gim_1_2014-08-13, ES_Ler_Gim_1_2014-10-20</td>
+                <td>41.617590</td>
+                <td>0.620015</td>
+                <td>Europe, Europe</td>
+                <td>Spain, Spain</td>
+                <td>80</td>
+                <td>SRR5647776, SRR5647769</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>59</th>
+                <td>ES_Ler_Gim_1_2020-10-26, ES_Ler_Gim_1_2021-08-31, ES_Ler_Gim_1_2015-06-28, ES_Ler_Gim_1_2015-10-22, ES_Ler_Gim_1_2016-08-25, ES_Ler_Gim_1_2016-10-21, ES_Ler_Gim_1_2017-07-24, ES_Ler_Gim_1_2017-10-14, ES_Ler_Gim_1_2018-08-25, ES_Ler_Gim_1_2018-10-26, ES_Ler_Gim_1_2019-08-25</td>
+                <td>41.654843</td>
+                <td>0.386970</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Spain, Spain, Spain, Spain, Spain, Spain, Spain, Spain, Spain, Spain, Spain</td>
+                <td>410</td>
+                <td>Absent, Absent, SRR8439138, SRR8439168, SRR8494470, SRR8494472, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>60</th>
+                <td>FI_Cen_Ves_1_2016-07-29, FI_Cen_Ves_1_2014-07-26</td>
+                <td>62.550000</td>
+                <td>26.240000</td>
+                <td>Europe, Europe</td>
+                <td>Finland, Finland</td>
+                <td>73</td>
+                <td>SRR8494442, SRR5647773</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>61</th>
+                <td>FI_Pir_Aka_1_2014-07-25, FI_Pir_Aka_1_2014-08-27, FI_Pir_Aka_1_2015-07-21, FI_Pir_Aka_1_2015-10-01, FI_Pir_Aka_1_2016-07-24, FI_Pir_Aka_1_2016-09-17, FI_Pir_Aka_1_2017-07-20, FI_Pir_Aka_1_2017-09-25, FI_Pir_Aka_1_2018-07-17, FI_Pir_Aka_1_2018-09-20, FI_Pir_Aka_1_2019-07-19, FI_Pir_Aka_1_2019-08-25, FI_Pir_Aka_1_2020-06-28, FI_Pir_Aka_1_2020-10-04, FI_Pir_Aka_1_2021-07-07, FI_Pir_Aka_1_2021-09-17</td>
+                <td>61.100000</td>
+                <td>23.510000</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland, Finland</td>
+                <td>624</td>
+                <td>SRR5647775, SRR5647774, SRR8439161, SRR8439162, SRR8494445, SRR8494443, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>62</th>
+                <td>FR_Ain_Civ_1_2019-06-15, FR_Ain_Ver_1_2017-09-21</td>
+                <td>45.910500</td>
+                <td>4.896000</td>
+                <td>Europe, Europe</td>
+                <td>France, France</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>63</th>
+                <td>FR_Cot_Vie_1_2019-10-19, FR_Cot_Vie_1_2020-08-03, FR_Cot_Vie_1_2021-08-11</td>
+                <td>47.266980</td>
+                <td>5.454433</td>
+                <td>Europe, Europe, Europe</td>
+                <td>France, France, France</td>
+                <td>116</td>
+                <td>Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>64</th>
+                <td>FR_Dro_Got_1_2015-05-21, FR_Dro_Got_1_2015-09-09, FR_Dro_Got_1_2015-10-13, FR_Dro_Got_1_2016-06-13, FR_Dro_Got_1_2014-07-08</td>
+                <td>44.976925</td>
+                <td>4.930002</td>
+                <td>Europe, Europe, Europe, Europe, Europe</td>
+                <td>France, France, France, France, France</td>
+                <td>200</td>
+                <td>SRR8439122, SRR8439123, SRR8439126, SRR8494447, SRR5647753</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>65</th>
+                <td>FR_Ess_Vil_1_2014-08-18, FR_Ess_Vil_1_2014-10-27, FR_Ess_Vil_1_2015-08-10, FR_Ess_Vil_1_2015-10-14, FR_Ess_Vil_1_2016-08-12, FR_Ess_Vil_1_2017-08-24, FR_Ess_Vil_1_2017-10-17</td>
+                <td>48.753000</td>
+                <td>2.158176</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>France, France, France, France, France, France, France</td>
+                <td>280</td>
+                <td>SRR5647755, SRR5647729, SRR8439165, SRR8439120, SRR8494435, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>66</th>
+                <td>FR_Hau_Civ_1_2018-06-16, FR_Hau_Civ_1_2018-09-15</td>
+                <td>45.000000</td>
+                <td>4.000000</td>
+                <td>Europe, Europe</td>
+                <td>France, France</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>67</th>
+                <td>FR_Her_Sai_1_2020-11-12, FR_Her_Sai_1_2021-06-10</td>
+                <td>43.709061</td>
+                <td>3.848005</td>
+                <td>Europe, Europe</td>
+                <td>France, France</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>68</th>
+                <td>FR_Ill_Sai_1_2017-07-22, FR_Ill_Sai_1_2017-09-16</td>
+                <td>48.130000</td>
+                <td>-1.580000</td>
+                <td>Europe, Europe</td>
+                <td>France, France</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>69</th>
+                <td>GB_Eas_Sus_1_2021-07-09, GB_Eas_Sus_1_2021-09-01</td>
+                <td>51.099767</td>
+                <td>0.164407</td>
+                <td>Europe, Europe</td>
+                <td>UK, UK</td>
+                <td>76</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>70</th>
+                <td>GB_Edi_Edi_1_2021-08-29, GB_Edi_Edi_1_2021-10-04</td>
+                <td>55.932350</td>
+                <td>-3.195150</td>
+                <td>Europe, Europe</td>
+                <td>UK, UK</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>71</th>
+                <td>GB_Fif_Dai_1_2015-08-19, GB_Fif_Dai_1_2016-08-06, GB_Fif_Dai_1_2020-MM-DD</td>
+                <td>56.345465</td>
+                <td>-2.951935</td>
+                <td>Europe, Europe, Europe</td>
+                <td>United Kingdom, United Kingdom, UK</td>
+                <td>120</td>
+                <td>SRR8439142, SRR8494478, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>72</th>
+                <td>GB_Lei_Mar_1_2014-10-20, GB_Nor_Mar_1_2015-07-07, GB_Nor_Mar_1_2016-10-23</td>
+                <td>52.465523</td>
+                <td>-0.946506</td>
+                <td>Europe, Europe, Europe</td>
+                <td>United Kingdom, United Kingdom, United Kingdom</td>
+                <td>120</td>
+                <td>SRR5647760, SRR8439121, SRR8494432</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>73</th>
+                <td>GB_Nor_Mar_1_2017-10-10, GB_Nor_Mar_2_2017-10-10, GB_Nor_Mar_3_2017-10-10</td>
+                <td>52.460861</td>
+                <td>0.959028</td>
+                <td>Europe, Europe, Europe</td>
+                <td>UK, UK, UK</td>
+                <td>108</td>
+                <td>Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>74</th>
+                <td>GB_Per_Dru_1_2020-09-07, GB_Per_Mut_1_2021-08-05</td>
+                <td>56.320370</td>
+                <td>-3.780960</td>
+                <td>Europe, Europe</td>
+                <td>UK, UK</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>75</th>
+                <td>GB_She_She_1_2014-08-25, GB_She_She_1_2015-10-04</td>
+                <td>53.390760</td>
+                <td>-1.520800</td>
+                <td>Europe, Europe</td>
+                <td>United Kingdom, United Kingdom</td>
+                <td>80</td>
+                <td>SRR5647752, SRR8439153</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>76</th>
+                <td>GR_Kri_Her_1_2020-07-13, GR_Kri_Ira_1_2017-11-06, GR_Kri_Ira_1_2018-10-11, GR_Kri_Ira_1_2019-MM-DD, GR_Kri_Ira_1_2021-10-20</td>
+                <td>35.279357</td>
+                <td>25.103805</td>
+                <td>Europe, Europe, Europe, Europe, Europe</td>
+                <td>Greece, Greece, Greece, Greece, Greece</td>
+                <td>170</td>
+                <td>Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>77</th>
+                <td>HR_Dub_Her_1_2019-09-19, HR_Dub_Kam_1_2017-09-20</td>
+                <td>42.280500</td>
+                <td>18.328000</td>
+                <td>Europe, Europe</td>
+                <td>Montenegro, Montenegro</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>78</th>
+                <td>HU_Pes_Pil_1_2020-08-17, HU_Pes_Pil_1_2018-07-04, HU_Pes_Pil_1_2018-10-30</td>
+                <td>47.617361</td>
+                <td>18.892002</td>
+                <td>Europe, Europe, Europe</td>
+                <td>Hungary, Hungary, Hungary</td>
+                <td>120</td>
+                <td>Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>79</th>
+                <td>IT_Tre_San_1_2015-09-29, IT_Tre_San_1_2015-10-10, IT_Tre_San_1_2019-10-01, IT_Tre_San_1_2021-06-28, IT_Tre_San_1_2021-10-01, IT_Tre_Tre_1_2016-08-24</td>
+                <td>46.199439</td>
+                <td>11.125464</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Italy, Italy, Italy, Italy, Italy, Italy</td>
+                <td>232</td>
+                <td>SRR8439118, SRR8439119, Absent, Absent, Absent, SRR8494456</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>80</th>
+                <td>NL_Gro_Gro_1_2017-10-11, NL_Gro_Gro_1_2019-10-09, NL_Gro_Gro_1_2020-10-15</td>
+                <td>53.153857</td>
+                <td>6.304490</td>
+                <td>Europe, Europe, Europe</td>
+                <td>Netherlands, Netherlands, Netherlands</td>
+                <td>97</td>
+                <td>Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>81</th>
+                <td>PL_War_Brz_1_2016-08-08, PL_War_Brz_1_2017-08-20, PL_War_Brz_1_2015-09-28</td>
+                <td>54.273447</td>
+                <td>19.620168</td>
+                <td>Europe, Europe, Europe</td>
+                <td>Poland, Poland, Poland</td>
+                <td>120</td>
+                <td>SRR8494458, Absent, SRR8439154</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>82</th>
+                <td>PT_Por_Rec_1_2014-09-26, PT_Por_Rec_1_2015-09-01, PT_Por_Rec_1_2016-10-01</td>
+                <td>41.150000</td>
+                <td>-8.410000</td>
+                <td>Europe, Europe, Europe</td>
+                <td>Portugal, Portugal, Portugal</td>
+                <td>120</td>
+                <td>SRR5647770, SRR8439150, SRR8494457</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>83</th>
+                <td>RS_Sre_Sla_1_2016-06-18, RS_Sre_Sla_1_2016-09-09, RS_Sre_Sla_1_2017-06-28, RS_Sre_Sla_1_2017-09-28, RS_Sre_Sla_1_2019-06-14</td>
+                <td>45.130000</td>
+                <td>20.208000</td>
+                <td>Europe, Europe, Europe, Europe, Europe</td>
+                <td>Serbia, Serbia, Serbia, Serbia, Serbia</td>
+                <td>199</td>
+                <td>SRR8494473, SRR8494474, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>84</th>
+                <td>RS_Sre_Sta_1_2020-09-14, RS_Sre_Sta_1_2021-06-22, RS_Sre_Sta_1_2019-07-21, RS_Sre_Sta_1_2020-07-02</td>
+                <td>44.986300</td>
+                <td>20.166625</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Serbia, Serbia, Serbia, Serbia</td>
+                <td>160</td>
+                <td>Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>85</th>
+                <td>RS_Zaj_Kal_1_2016-06-30, RS_Zaj_Kal_1_2016-09-13</td>
+                <td>43.400000</td>
+                <td>22.420000</td>
+                <td>Europe, Europe</td>
+                <td>Serbia, Serbia</td>
+                <td>80</td>
+                <td>SRR8494479, SRR8494471</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>86</th>
+                <td>RU_Cri_Yal_1_2014-06-20, RU_Cri_Yal_1_2014-08-27, RU_Cri_Yal_1_2015-06-24, RU_Cri_Yal_1_2015-08-24, RU_Cri_Yal_1_2016-08-20</td>
+                <td>44.501500</td>
+                <td>34.166116</td>
+                <td>Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>200</td>
+                <td>SRR5647764, SRR5647763, SRR8439131, SRR8439167, SRR8494436</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>87</th>
+                <td>RU_Nov_Val_1_2017-10-01, RU_Nov_Val_1_2018-08-28, RU_Nov_Val_1_2014-08-17, RU_Nov_Val_1_2015-08-23, RU_Nov_Val_1_2015-10-05, RU_Nov_Val_1_2016-08-23, RU_Nov_Val_1_2016-09-29, RU_Nov_Val_1_2016-10-24, RU_Nov_Val_1_2017-08-25</td>
+                <td>58.019280</td>
+                <td>33.236204</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Russia, Russia, Russia, Russia, Russia, Russia, Russia, Russia, Russia</td>
+                <td>360</td>
+                <td>Absent, Absent, SRR5647741, SRR8439160, SRR8439158, SRR8494449, SRR8494450, SRR8494477, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>88</th>
+                <td>RU_Vla_Ale_1_2015-09-15, RU_Vla_Ale_1_2016-10-15, RU_Vla_Ale_1_2017-08-15, RU_Vla_Ale_1_2018-09-09, RU_Vla_Ale_1_2018-10-13</td>
+                <td>56.414720</td>
+                <td>38.716110</td>
+                <td>Europe, Europe, Europe, Europe, Europe</td>
+                <td>Russia, Russia, Russia, Russia, Russia</td>
+                <td>200</td>
+                <td>SRR8439141, SRR8494476, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>89</th>
+                <td>SE_Ska_Lun_1_2014-07-31, SE_Ska_Lun_1_2015-08-08, SE_Ska_Lun_1_2015-08-24</td>
+                <td>55.694000</td>
+                <td>13.198000</td>
+                <td>Europe, Europe, Europe</td>
+                <td>Sweden, Sweden, Sweden</td>
+                <td>120</td>
+                <td>SRR5647735, SRR8439151, SRR8439156</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>90</th>
+                <td>UA_Che_Dmy_1_2021-07-17, UA_Che_Uma_1_2014-10-01, UA_Che_Uma_1_2015-09-26, UA_Che_Uma_1_2016-09-11, UA_Che_Uma_1_2016-09-17, UA_Che_Uma_1_2017-09-16, UA_Che_Uma_1_2017-10-07, UA_Che_Uma_1_2018-09-21, UA_Che_Uma_1_2019-08-13, UA_Che_Uma_1_2019-10-14, UA_Che_Uma_1_2019-10-20, UA_Che_Uma_1_2020-08-19, UA_Che_Uma_1_2020-09-27, UA_Che_Uma_1_2021-09-19</td>
+                <td>48.763285</td>
+                <td>30.217752</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>556</td>
+                <td>Absent, SRR5647740, SRR8439117, SRR8494422, SRR8494425, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>91</th>
+                <td>UA_Che_Var_1_2020-10-11, UA_Che_Var_1_2021-09-26, UA_Che_Var_1_2014-08-18, UA_Che_Var_1_2015-08-25, UA_Che_Var_1_2016-08-26, UA_Che_Var_1_2018-09-03, UA_Che_Var_1_2019-09-14</td>
+                <td>50.488075</td>
+                <td>32.714206</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>278</td>
+                <td>Absent, Absent, SRR5647738, SRR8439152, SRR8494469, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>92</th>
+                <td>UA_Don_Mar_1_2021-08-23, UA_Don_Mar_2_2021-08-23</td>
+                <td>47.114729</td>
+                <td>37.678114</td>
+                <td>Europe, Europe</td>
+                <td>Ukraine, Ukraine</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>93</th>
+                <td>UA_Kha_Kha_1_2016-08-18, UA_Kha_Kha_1_2014-07-26, UA_Kha_Kha_1_2014-09-14, UA_Kha_Kha_1_2015-08-20</td>
+                <td>49.818528</td>
+                <td>36.054750</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>160</td>
+                <td>SRR8494446, SRR5647747, SRR5647730, SRR8439146</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>94</th>
+                <td>UA_Kha_Kha_1_2018-09-24, UA_Kha_Kha_1_2021-08-18</td>
+                <td>49.990083</td>
+                <td>36.230678</td>
+                <td>Europe, Europe</td>
+                <td>Ukraine, Ukraine</td>
+                <td>80</td>
+                <td>Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>95</th>
+                <td>UA_Kie_Cho_1_2014-09-13, UA_Kie_Cho_1_2015-06-15, UA_Kie_Cho_1_2015-07-07, UA_Kie_Cho_1_2015-08-20, UA_Kie_Cho_1_2015-08-26, UA_Kie_Cho_1_2016-09-04, UA_Kie_Cho_1_2016-09-05, UA_Kie_Cho_1_2019-09-06, UA_Kie_Cho_2_2014-09-13, UA_Kie_Cho_2_2015-08-26, UA_Kie_Cho_2_2016-09-04, UA_Kie_Cho_3_2015-08-26, UA_Kie_Cho_4_2014-09-13, UA_Kie_Cho_4_2015-08-26, UA_Kie_Cho_6_2015-08-26, UA_Kie_Kop_1_2019-09-06, UA_Kie_Pri_1_2016-09-03</td>
+                <td>51.333628</td>
+                <td>30.152202</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>673</td>
+                <td>SRR5647731, SRR8439133, SRR8439115, SRR8439132, SRR8439139, SRR8494431, SRR8494444, Absent, SRR5647733, SRR8439128, SRR8494433, SRR8439149, SRR5647734, SRR8439134, SRR8439135, Absent, SRR8494426</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>96</th>
+                <td>UA_Kie_Cho_5_2015-08-26, UA_Kie_Cho_3_2014-09-13</td>
+                <td>51.278889</td>
+                <td>29.394389</td>
+                <td>Europe, Europe</td>
+                <td>Ukraine, Ukraine</td>
+                <td>75</td>
+                <td>SRR8439169, SRR5647742</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>97</th>
+                <td>UA_Kie_Hle_1_2021-08-29, UA_Kie_Kyi_1_2015-08-10, UA_Kie_Kyi_1_2016-08-06, UA_Kie_Kyi_1_2016-09-04, UA_Kie_Kyi_1_2016-10-03, UA_Kie_Vys_1_2017-08-11, UA_Kie_Vys_1_2017-09-03, UA_Kie_Vys_1_2017-09-26, UA_Kie_Vys_1_2017-10-19, UA_Kie_Vys_1_2018-07-25, UA_Kie_Vys_1_2018-08-29, UA_Kie_Vys_1_2018-09-27, UA_Kie_Vys_1_2019-08-12, UA_Kie_Vys_1_2019-09-02, UA_Kie_Vys_1_2020-08-18, UA_Kie_Vys_1_2020-09-21, UA_Kie_Vys_1_2020-10-15, UA_Kie_Vys_1_2021-08-01, UA_Kie_Vys_1_2021-09-19</td>
+                <td>50.377830</td>
+                <td>30.365216</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>750</td>
+                <td>Absent, SRR8439147, SRR8494430, SRR8494466, SRR8494428, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>98</th>
+                <td>UA_Kie_Kyi_1_2014-09-08, UA_Kie_Kyi_1_2014-10-11, UA_Kie_Kyi_1_2020-09-29, UA_Kie_Kyi_1_2014-08-09</td>
+                <td>50.352708</td>
+                <td>30.485606</td>
+                <td>Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>160</td>
+                <td>SRR5647737, SRR5647743, Absent, SRR5647736</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>99</th>
+                <td>UA_Lvi_Dro_1_2016-09-12, UA_Lvi_Dro_1_2014-08-24, UA_Lvi_Dro_1_2015-09-18</td>
+                <td>49.329917</td>
+                <td>23.502806</td>
+                <td>Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine</td>
+                <td>120</td>
+                <td>SRR8494441, SRR5647732, SRR8439116</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>100</th>
+                <td>UA_Ode_Ode_1_2015-06-30, UA_Ode_Ode_1_2015-07-26, UA_Ode_Ode_1_2015-08-27, UA_Ode_Ode_1_2015-09-26, UA_Ode_Ode_1_2016-08-20, UA_Ode_Ode_1_2016-09-15, UA_Ode_Ode_1_2017-08-12, UA_Ode_Ode_1_2017-09-23, UA_Ode_Ode_1_2018-06-30, UA_Ode_Ode_1_2018-08-15, UA_Ode_Ode_1_2018-09-15, UA_Ode_Ode_1_2019-06-15, UA_Ode_Ode_1_2019-09-06, UA_Ode_Ode_1_2020-08-28, UA_Ode_Ode_1_2020-09-26, UA_Ode_Ode_1_2020-09-28, UA_Ode_Ode_1_2020-10-30, UA_Ode_Ode_1_2021-11-11, UA_Ode_Ode_1_2013-05-16, UA_Ode_Ode_1_2013-10-15, UA_Ode_Ode_1_2014-07-03, UA_Ode_Ode_1_2014-07-22, UA_Ode_Ode_1_2014-08-29, UA_Ode_Ode_1_2014-10-10</td>
+                <td>46.441259</td>
+                <td>30.758903</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>956</td>
+                <td>SRR8439145, SRR8439140, SRR8439130, SRR8439155, SRR8494429, SRR8494427, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, SRR3939055, SRR3939053, SRR5647766, SRR5647765, SRR5647768, SRR5647767</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>101</th>
+                <td>UA_Pol_Pyr_1_2014-08-20, UA_Pol_Pyr_1_2015-08-26, UA_Pol_Pyr_1_2017-08-22, UA_Pol_Pyr_1_2017-09-03, UA_Pol_Pyr_1_2019-08-25, UA_Pol_Pyr_1_2019-09-06, UA_Pol_Pyr_1_2021-07-29</td>
+                <td>50.305714</td>
+                <td>32.500536</td>
+                <td>Europe, Europe, Europe, Europe, Europe, Europe, Europe</td>
+                <td>Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine, Ukraine</td>
+                <td>270</td>
+                <td>SRR5647739, SRR8439129, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>102</th>
+                <td>B52, mel140, mel142, mel143, CN_Bei_Bei_1_1992-09-16, mel164, mel165, mel166, mel167, mel168, B04, B05, B10, B11, B12, B14, B23, B28, B38, B42, B43, B51, B54, B59</td>
+                <td>39.921250</td>
+                <td>116.393333</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China</td>
+                <td>38</td>
+                <td>SRR1663539, SRR23103970, SRR23103969, SRR23103968, Absent, SRR23103814, SRR23103813, SRR23103812, SRR23103811, SRR23103810, SRR1662283, SRR1663528, SRR1663529, SRR1663530, SRR1663531, SRR1663532, SRR1663533, SRR1663534, SRR1663535, SRR1663536, SRR1663537, SRR1663538, SRR1663540, SRR1663541</td>
+                <td>Grenier et al. (9), Chen et al. (2024), DESTv2</td>
+              </tr>
+              <tr>
+                <th>103</th>
+                <td>TR_Ank_Yes_1_2020-10-14, TR_Ank_Yes_1_2021-05-19, TR_Ank_Yes_1_2021-06-25, TR_Ank_Yes_1_2021-07-27, TR_Ank_Yes_1_2021-08-19, TR_Ank_Yes_1_2021-09-20, TR_Ank_Yes_1_2021-10-16, TR_Ank_Yes_1_2014-08-31, TR_Ank_Yes_1_2014-10-23, TR_Ank_Yes_1_2015-05-01, TR_Ank_Yes_1_2015-06-01, TR_Ank_Yes_1_2015-07-28, TR_Ank_Yes_1_2015-08-27, TR_Ank_Yes_1_2015-09-17, TR_Ank_Yes_1_2015-10-15, TR_Ank_Yes_1_2016-05-26, TR_Ank_Yes_1_2016-06-25, TR_Ank_Yes_1_2016-07-27, TR_Ank_Yes_1_2016-08-24, TR_Ank_Yes_1_2016-09-27, TR_Ank_Yes_1_2016-10-13, TR_Ank_Yes_1_2017-06-07, TR_Ank_Yes_1_2017-06-30, TR_Ank_Yes_1_2017-07-29, TR_Ank_Yes_1_2017-08-30, TR_Ank_Yes_1_2017-09-26, TR_Ank_Yes_1_2017-10-13, TR_Ank_Yes_1_2018-05-19, TR_Ank_Yes_1_2018-06-25, TR_Ank_Yes_1_2018-07-28, TR_Ank_Yes_1_2018-08-27, TR_Ank_Yes_1_2018-09-27, TR_Ank_Yes_1_2018-10-12, TR_Ank_Yes_1_2019-06-26, TR_Ank_Yes_1_2019-08-14, TR_Ank_Yes_1_2019-09-17, TR_Ank_Yes_1_2019-10-10, TR_Ank_Yes_1_2020-05-21, TR_Ank_Yes_1_2020-06-26, TR_Ank_Yes_1_2020-07-13, TR_Ank_Yes_1_2020-08-18, TR_Ank_Yes_1_2020-09-16</td>
+                <td>40.231445</td>
+                <td>32.260329</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey, Turkey</td>
+                <td>1647</td>
+                <td>Absent, Absent, Absent, Absent, Absent, Absent, Absent, SRR5647749, SRR5647748, SRR8439113, SRR8439111, SRR8439110, SRR8439109, SRR8439108, SRR8439107, SRR8494467, SRR8494465, SRR8494464, SRR8494463, SRR8494468, SRR8494423, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent, Absent</td>
+                <td>DESTv2</td>
+              </tr>
+              <tr>
+                <th>104</th>
+                <td>mel1, mel2, mel3, mel4, mel5</td>
+                <td>40.810000</td>
+                <td>111.660000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103765, SRR23103933, SRR23103985, SRR23103841, SRR23103829</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>105</th>
+                <td>mel10, LZ9, mel6, mel7, mel8, mel9</td>
+                <td>36.130000</td>
+                <td>103.670000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China</td>
+                <td>6</td>
+                <td>SRR23103754, SRR23104000, SRR23103817, SRR23103901, SRR23103889, SRR23103781</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>106</th>
+                <td>mel11, mel12, mel13, mel14, mel15</td>
+                <td>42.200000</td>
+                <td>116.460000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23104023, SRR23103908, SRR23103758, SRR23103971, SRR23103960</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>107</th>
+                <td>mel16, mel17, mel18, mel19, mel20</td>
+                <td>40.000000</td>
+                <td>124.350000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103948, SRR23103808, SRR23103796, SRR23103977, SRR23103932</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>108</th>
+                <td>mel21, mel22, mel23, mel24, mel25</td>
+                <td>40.670000</td>
+                <td>107.350000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103920, SRR23104040, SRR23104028, SRR23104016, SRR23103872</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>109</th>
+                <td>mel26, mel27, mel28, mel29, mel30, SZ1, SZ5</td>
+                <td>31.270000</td>
+                <td>120.730000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China, China</td>
+                <td>7</td>
+                <td>SRR23103860, SRR23104012, SRR23104001, SRR23103990, SRR23103984, SRR23103769, SRR23103767</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>110</th>
+                <td>mel31, mel32, mel33, mel34, mel35</td>
+                <td>39.670000</td>
+                <td>106.800000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103983, SRR23103982, SRR23103981, SRR23103848, SRR23103847</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>111</th>
+                <td>mel36, mel37, mel38</td>
+                <td>31.300000</td>
+                <td>121.500000</td>
+                <td>Asia, Asia, Asia</td>
+                <td>China, China, China</td>
+                <td>3</td>
+                <td>SRR23103846, SRR23103844, SRR23103843</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>112</th>
+                <td>mel42, mel43, mel39, mel40, mel41</td>
+                <td>41.750000</td>
+                <td>123.370000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103838, SRR23103837, SRR23103842, SRR23103840, SRR23103839</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>113</th>
+                <td>mel44, mel45, mel46, mel47, mel48, HLE8</td>
+                <td>49.220000</td>
+                <td>119.770000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China</td>
+                <td>6</td>
+                <td>SRR23103836, SRR23103835, SRR23103833, SRR23103832, SRR23103831, SRR23103979</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>114</th>
+                <td>mel49, mel50, mel51, mel52, mel53</td>
+                <td>43.860000</td>
+                <td>125.320000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103830, SRR23103828, SRR23103827, SRR23103826, SRR23103825</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>115</th>
+                <td>mel58, BJC5, mel54, mel55, mel56, mel57</td>
+                <td>53.490000</td>
+                <td>122.340000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China</td>
+                <td>6</td>
+                <td>SRR23103819, SRR23103980, SRR23103824, SRR23103822, SRR23103821, SRR23103820</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>116</th>
+                <td>mel59, mel60, mel61, mel62, mel63</td>
+                <td>42.580000</td>
+                <td>128.320000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103818, SRR23103912, SRR23103911, SRR23103910, SRR23103909</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>117</th>
+                <td>mel288, mel64, mel65, mel66, mel67, mel269, mel270, mel285, mel286, mel287</td>
+                <td>28.211000</td>
+                <td>113.018000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China, China, China, China, China</td>
+                <td>10</td>
+                <td>SRR23103992, SRR23103907, SRR23103906, SRR23103905, SRR23103904, SRR23103849, SRR23104010, SRR23103995, SRR23103994, SRR23103993</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>118</th>
+                <td>mel69, mel70, mel71, mel72, mel73</td>
+                <td>48.360000</td>
+                <td>134.300000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103902, SRR23103900, SRR23103899, SRR23103898, SRR23103896</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>119</th>
+                <td>mel74, mel75, mel76, mel77, mel78, WLMQ2</td>
+                <td>43.890000</td>
+                <td>87.550000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China</td>
+                <td>6</td>
+                <td>SRR23103895, SRR23103894, SRR23103893, SRR23103892, SRR23103891, SRR23103766</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>120</th>
+                <td>mel79, mel80, mel81, mel82, mel83</td>
+                <td>45.750000</td>
+                <td>126.630000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103890, SRR23103888, SRR23103887, SRR23103885, SRR23103884</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>121</th>
+                <td>mel84, mel85, mel86, mel87, mel88</td>
+                <td>46.810000</td>
+                <td>130.320000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103883, SRR23103882, SRR23103881, SRR23103784, SRR23103783</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>122</th>
+                <td>mel90, mel91, mel92, mel93, mel89</td>
+                <td>42.250000</td>
+                <td>118.970000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103780, SRR23103778, SRR23103777, SRR23103776, SRR23103782</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>123</th>
+                <td>mel98, mel95, mel96, mel97</td>
+                <td>34.850000</td>
+                <td>105.670000</td>
+                <td>Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China</td>
+                <td>4</td>
+                <td>SRR23103771, SRR23103774, SRR23103773, SRR23103772</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>124</th>
+                <td>mel100, mel101, mel102, mel103</td>
+                <td>34.600000</td>
+                <td>109.720000</td>
+                <td>Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China</td>
+                <td>4</td>
+                <td>SRR23103967, SRR23103956, SRR23103945, SRR23103806</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>125</th>
+                <td>mel106, mel107, mel108, mel104, mel105</td>
+                <td>40.570000</td>
+                <td>110.510000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103935, SRR23103924, SRR23103913, SRR23103795, SRR23103978</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>126</th>
+                <td>mel109, mel110, mel112, mel113, mel121, mel122</td>
+                <td>36.750000</td>
+                <td>117.180000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China</td>
+                <td>6</td>
+                <td>SRR23104034, SRR23103880, SRR23103869, SRR23103858, SRR23103886, SRR23103779</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>127</th>
+                <td>mel114, mel115, mel116, mel117, mel118</td>
+                <td>39.770000</td>
+                <td>98.360000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23104011, SRR23103999, SRR23103988, SRR23103845, SRR23103834</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>128</th>
+                <td>mel123, mel173, mel174, mel175, mel176, mel177, mel119, mel120</td>
+                <td>37.710000</td>
+                <td>120.640000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China, China, China</td>
+                <td>8</td>
+                <td>SRR23103768, SRR23103803, SRR23103802, SRR23103801, SRR23103800, SRR23103799, SRR23103823, SRR23103897</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>129</th>
+                <td>mel124, mel125, mel126, mel127, mel128</td>
+                <td>42.980000</td>
+                <td>129.490000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103764, SRR23103763, SRR23103762, SRR23103761, SRR23103760</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>130</th>
+                <td>mel129, mel130, mel131, mel132, mel133</td>
+                <td>36.180000</td>
+                <td>116.760000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103759, SRR23103757, SRR23103756, SRR23103755, SRR23103753</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>131</th>
+                <td>mel134, mel135, mel136, mel137, mel138</td>
+                <td>36.020000</td>
+                <td>101.470000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103976, SRR23103975, SRR23103974, SRR23103973, SRR23103972</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>132</th>
+                <td>mel144, mel145, mel146, mel147, mel148</td>
+                <td>42.850000</td>
+                <td>93.560000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103966, SRR23103965, SRR23103964, SRR23103963, SRR23103962</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>133</th>
+                <td>mel159, mel160, mel161, mel162, mel163, mel149, mel150, mel151, mel152, mel153</td>
+                <td>44.300000</td>
+                <td>86.050000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China, China, China, China, China</td>
+                <td>10</td>
+                <td>SRR23103949, SRR23103947, SRR23103946, SRR23103816, SRR23103815, SRR23103961, SRR23103959, SRR23103958, SRR23103957, SRR23103955</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>134</th>
+                <td>mel157, mel158, mel154, mel155, mel156</td>
+                <td>38.480000</td>
+                <td>106.200000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103951, SRR23103950, SRR23103954, SRR23103953, SRR23103952</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>135</th>
+                <td>mel169, mel170, mel171, mel172</td>
+                <td>43.010000</td>
+                <td>89.160000</td>
+                <td>Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China</td>
+                <td>4</td>
+                <td>SRR23103809, SRR23103807, SRR23103805, SRR23103804</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>136</th>
+                <td>mel178, mel179, mel180, mel181, mel182</td>
+                <td>38.830000</td>
+                <td>100.390000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103798, SRR23103797, SRR23103794, SRR23103793, SRR23103792</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>137</th>
+                <td>mel183, mel184, mel185, mel186, mel187</td>
+                <td>47.330000</td>
+                <td>123.970000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103791, SRR23103790, SRR23103789, SRR23103788, SRR23103787</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>138</th>
+                <td>mel189, mel190, mel191, mel188</td>
+                <td>36.280000</td>
+                <td>103.000000</td>
+                <td>Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China</td>
+                <td>4</td>
+                <td>SRR23103785, SRR23103944, SRR23103943, SRR23103786</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>139</th>
+                <td>mel192, mel193, mel194, mel195, mel196</td>
+                <td>35.870000</td>
+                <td>118.880000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103942, SRR23103941, SRR23103940, SRR23103939, SRR23103938</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>140</th>
+                <td>mel197, mel198, mel199, mel200, mel201</td>
+                <td>38.980000</td>
+                <td>121.590000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103937, SRR23103936, SRR23103934, SRR23103931, SRR23103930</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>141</th>
+                <td>mel253, mel254, mel255, mel256, mel257, mel258, mel202, mel203, mel204, mel205, mel206, mel207, mel208, mel209, mel210, mel211, mel212, mel213, mel214, mel215, mel216, mel217, mel218, mel219, mel220, mel221, mel222, mel223, mel224, mel225, mel226, mel227, mel228, mel229, mel230, mel231, mel232, mel233, mel234, mel235, mel236, mel237, mel238, mel239, mel240, mel241, mel242, mel243, mel244, mel245, mel246, mel247, mel248, mel249, mel250, mel251, mel252</td>
+                <td>29.650000</td>
+                <td>91.180000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China, China</td>
+                <td>57</td>
+                <td>SRR23103867, SRR23103866, SRR23103865, SRR23103864, SRR23103863, SRR23103862, SRR23103929, SRR23103928, SRR23103927, SRR23103926, SRR23103925, SRR23103923, SRR23103922, SRR23103921, SRR23103919, SRR23103918, SRR23103917, SRR23103916, SRR23103915, SRR23103914, SRR23104044, SRR23104043, SRR23104042, SRR23104041, SRR23104039, SRR23104038, SRR23104037, SRR23104036, SRR23104035, SRR23104033, SRR23104032, SRR23104031, SRR23104030, SRR23104029, SRR23104027, SRR23104026, SRR23104025, SRR23104024, SRR23104022, SRR23104021, SRR23104020, SRR23104019, SRR23104018, SRR23104017, SRR23104015, SRR23104014, SRR23104013, SRR23103879, SRR23103878, SRR23103877, SRR23103876, SRR23103875, SRR23103874, SRR23103873, SRR23103871, SRR23103870, SRR23103868</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>142</th>
+                <td>mel259, mel260, mel261, mel262, mel263, mel278</td>
+                <td>30.300000</td>
+                <td>105.330000</td>
+                <td>Asia, Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China, China</td>
+                <td>6</td>
+                <td>SRR23103861, SRR23103859, SRR23103857, SRR23103856, SRR23103855, SRR23104003</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>143</th>
+                <td>mel264, mel265, mel266, mel267, mel268</td>
+                <td>29.430000</td>
+                <td>106.360000</td>
+                <td>Asia, Asia, Asia, Asia, Asia</td>
+                <td>China, China, China, China, China</td>
+                <td>5</td>
+                <td>SRR23103854, SRR23103853, SRR23103852, SRR23103851, SRR23103850</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>144</th>
+                <td>mel271, mel272</td>
+                <td>24.330000</td>
+                <td>103.380000</td>
+                <td>Asia, Asia</td>
+                <td>China, China</td>
+                <td>2</td>
+                <td>SRR23104009, SRR23104008</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>145</th>
+                <td>mel275, mel276, mel277</td>
+                <td>30.393333</td>
+                <td>104.146667</td>
+                <td>Asia, Asia, Asia</td>
+                <td>China, China, China</td>
+                <td>3</td>
+                <td>SRR23104006, SRR23104005, SRR23104004</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>146</th>
+                <td>mel279, mel292</td>
+                <td>25.280000</td>
+                <td>110.290000</td>
+                <td>Asia, Asia</td>
+                <td>China, China</td>
+                <td>2</td>
+                <td>SRR23104002, SRR23103986</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>147</th>
+                <td>mel281, mel282, mel283</td>
+                <td>27.010000</td>
+                <td>106.020000</td>
+                <td>Asia, Asia, Asia</td>
+                <td>China, China, China</td>
+                <td>3</td>
+                <td>SRR23103998, SRR23103997, SRR23103996</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+              <tr>
+                <th>148</th>
+                <td>mel289, mel290, mel291</td>
+                <td>22.806667</td>
+                <td>108.376667</td>
+                <td>Asia, Asia, Asia</td>
+                <td>China, China, China</td>
+                <td>3</td>
+                <td>SRR23103991, SRR23103989, SRR23103987</td>
+                <td>Chen et al. (2024)</td>
+              </tr>
+            </tbody>
       </table>
     </main>
   
